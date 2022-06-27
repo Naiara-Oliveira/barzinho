@@ -1,0 +1,38 @@
+*{
+   margin: 0px;
+   padding: 0px;
+
+}
+body{
+   background-image: url("../cardapio/img/fundo-bebida.jpg");
+   background-size: cover;
+   height: 100%;
+   object-fit: cover;
+}
+img{
+   display:block;
+   max-width:100%;
+}
+.paragrafo{
+   color: rgba(0,0,0,0.6);
+ 
+}
+
+.titulo{
+   font-size: 1.5rem;
+   padding: 10px;
+}
+.container-produto{
+   margin-top: 120px;
+   
+}
+.comida:focus{
+   background-color: #540b54;
+}
+.container-imagem img{
+   width: 100%;
+   background-size: contain;
+   height: 210px;
+   object-fit: cover;
+   gap: 40px;
+}

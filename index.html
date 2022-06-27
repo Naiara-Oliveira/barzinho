@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/Frame 1.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Montserrat:wght@300;400&family=Noto+Serif:wght@400;700&family=Playfair+Display:ital@0;1&family=Poppins:wght@400;500;900&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+    
+  <title>Pantanal Bar</title>
+</head>
+
+<body>
+  <div class="justify-content-end">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light navegacao">
+    <div class="container-fluid">
+      <a class="navbar-brand naveg" href="#">
+
+        <img class=" wow fadeInUp data-wow-delay=1s img-fluid img-logo" data-mdb-toggle="animation" src="img/pantanal3.svg">
+      </a>
+    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse t-sm" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contato">Contatos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Cardápio
+            </a>
+            <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item text-danger m-3" href="cardapio/comida.html">Comida</a></li>
+              <li><a class="dropdown-item text-danger m-3" href="cardapio/bebida.html">Bebida</a></li>
+           
+            </ul>
+          </li>
+        </ul>
+        <div class="justify-content-end ml-5">
+          <li class="list-unstyled texto-lugar p-5 mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <a class="text-light texto-chegar" href="#local">Como chegar</a>
+          </li>
+        </div>
+      
+      </div>
+    </div>
+  </nav>
+
+<div  id="home" class="video mt-0 mb-0">
+  <div class="">   
+    <video autoplay muted loop="true">
+      <source class=""  src="./img/video.mp4" type="video/mp4" width="860px" height="450px">
+    </video>
+  </div>
+</div>
+  </div>
+<div   id="sobre" class="conteudo p-0 w-100">
+<section class="sobre py-5 justify-content-center mt-0">
+  <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="col-sm-8 mx-auto">
+              <div class="carousel-inner text-center text-white py-5 mt-5">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                      <div class="user-photo shadow">
+                          <img src="img/pe-cedro.jpg" class="img-fluid  d-block w-100" alt="testimonial slider">
+                      </div>
+                      <div class="slider-caption mt-3">
+                          <p class="fs-5">Fazemos parte das noites de Coxim desde 2002, convivemos com a satisfação em acompanhar
+                            a história de diversos Coxinenses, marcamos gerações de pai a filho, marcamos laços e marcamos vidas com
+                            momentos inesquecíveis, levando entretenimento e prazer, até então com muita propriedade de geração em geração!</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                      <div class="user-photo shadow">
+                          <img src="img/amigos-no-bar-final-de-ano.jpg" class="img-fluid d-block w-100" alt="testimonial slider">
+                      </div>
+                      <div class="slider-caption mt-3">
+                          <p class="fs-5">Todo mundo tem uma história de boteco para contar, afinal, sempre é possível fazer boas memórias nesse lugar. Amigos reunidos, copos cheios e brindar a vida pode ser o que você está precisando hoje vem pra cá estamos te esperando! </p>
+                         
+                      </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                      <div class="user-photo shadow">
+                          <img src="img/barnen.jpg" class="img-fluid d-block w-100" alt="testimonial slider">
+                      </div>
+                      <div class="slider-caption mt-3">
+                          <p class="fs-5">Um atendimento de qualidade.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+</section>
+
+  <div class="container  mb-3">
+    <h1 class="position-absolute titu p-3">Se você está aqui é porque faz parte da nossa história seja Bem-vindo :)</h1>
+  </div>
+
+ <div class="container mt-5 sessao-destaque">
+<span class="destaque"></span>
+<h1 class="text-danger destaque">DESTAQUES NOSSO BAR</h1>
+<p class="texto-destaque">Cerveja gelada e os melhores drinks feitos em Pantanal Bar.</p>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="img thumbnail-one">
+                    <div class="img-caption">
+                        <h5 class="text-danger">Melhor atendimento</h5>
+                        <p>Excelência no atendimento</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="img thumbnail-two">
+                    <div class="img-caption">
+                        <h5  class="text-danger"> GASTRONOMIA</h5>
+                        <p>Tudo para acompanhar deliciosos e famosos petiscos de bar e boteco no Pantanal  Bar </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="img thumbnail-three">
+                    <div class="img-caption">
+                        <h5  class="text-danger">Bebida</h5>
+                        <p>Cerveja e chopp estão sempre gelados e melhores e drinks exclusivos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="img thumbnail-four">
+                    <div class="img-caption">
+                        <h5  class="text-danger">
+                          MÚSICA DE QUALIDADE</h5>
+                        <p>As música sertanejas são repertórios de shows ao vivo pela noite.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <hr>
+  <br>
+  <div class="d-flex justify-content-center">
+    <div class="col-2 sessao-img">
+      <img src="img/pexels-isabella-mendes-1304541.jpg" class="rounded float-start" alt="">
+    </div>
+    <div class="col-2 sessao-img">
+      <img src="img/pexels-isabella-mendes-1304542.jpg" class="rounded float-start" alt="">
+    </div>
+    <div class="col-2 sessao-img">
+      <img src="img/pexels-shutterspeed-6897482.jpg" class="rounded" alt="...">
+    </div>
+    <div class="col-2 sessao-img">
+      <img src="img/pexels-vinícius-caricatte-2336667.jpg" class="rounded float-start" alt="...">
+    </div>
+
+   
+
+    <div class="col-2 sessao-img">
+      <img src="img/pexels-isabella-mendes-338713.jpg" class="rounded float-start" alt="...">
+    </div>
+  </div>
+  <br>
+    <hr>
+  </div>
+  <br>
+
+  <div id="contato"  class=" container-fluid">
+  <div   class="row">
+    <div  class="col-sm-12 col-md-6 col-lg-6 bg-dark rounded-2">
+      <h1> <img class="subtitulo-4 text-light img-fluid text-light" src="img/contato.svg">Contato</h1>
+     
+      <h4 class="subtitulo-4  fw-bolder mb-4 text-light">VENHA NOS VISITAR</h4>
+    <p class="subtitulo-4 mb-3 text-light">Av. Mato Grosso, 3952 - bairro: Centro - Coxim - MS, CEP: 79400-000.</p>
+           
+            <p class="subtitulo-4 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" fill="white" class="bi bi-telephone ml-2" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>
+              (00) 0000-0000</p>
+              <a href="#" class="text-light subtitulo-4 text-decoration-none">
+                
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+                Instagran Pantanal Bar</a>
+
+          </div>
+            
+    <div class="col-sm-12 col-md-6 col-lg-6 offset-md-0 col-lg-6 offset-lg-0">
+      <img class="sessao-img" src="img/7429 1.svg">
+    </div>
+        </div>
+    </div>
+ 
+  <div id="local" class="justify-content-center">
+    <iframe class="eapps-google-maps-inner"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.022680025376!2d-54.7605062781476!3d-18.505780949670292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x937e351d5942440b%3A0x5acdf602fcabdbf0!2sCentro%2C%20Coxim%20-%20MS%2C%2079400-000!5e0!3m2!1spt-BR!2sbr!4v1654711236526!5m2!1spt-BR!2sbr"
+      width="438" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+</div>
+
+
+
+  <div class="footer">
+    <p>Naiara Oliveira</p>
+   
+  </div>
+</div>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
